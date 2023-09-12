@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_delete"
+        android:icon="@drawable/ic_delete"
+        android:title="@string/delete_event"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item_back"
+        android:icon="@drawable/baseline_arrow_forward_24"
+        android:title="@string/back"
+        app:showAsAction="ifRoom" />
+
+</menu>

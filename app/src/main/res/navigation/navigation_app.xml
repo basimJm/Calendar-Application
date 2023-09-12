@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_app"
+    app:startDestination="@id/calendarFragment">
+
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.mstart.calendarapplication.presentation.ui.home.CalendarFragment"
+        android:label="CalendarFragment" />
+    <fragment
+        android:id="@+id/eventFragment"
+        android:name="com.mstart.calendarapplication.presentation.ui.event.EventFragment"
+        android:label="EventFragment" />
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="com.mstart.calendarapplication.presentation.ui.edit.EditFragment"
+        android:label="EditFragment" />
+
+    <dialog
+        android:id="@+id/eventBottomDialog"
+        android:name="com.mstart.calendarapplication.presentation.ui.home.feature.EventBottomDialog"
+        android:label="EventBottomDialog" />
+    <fragment
+        android:id="@+id/webFragment"
+        android:name="com.mstart.calendarapplication.presentation.WebFragment"
+        android:label="WebFragment" />
+
+
+</navigation>
